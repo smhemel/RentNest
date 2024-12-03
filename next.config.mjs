@@ -1,5 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  basePath: "/RentNest",
+  output: 'export', // <== Enables static exports
   images: {
     remotePatterns: [
       {
